@@ -8,6 +8,15 @@ namespace PieShop.Models
     public class MockPieRepository : IPieRepository
     {
         private List<Pie> _pies;
+
+        public MockPieRepository()
+        {
+            if (_pies == null)
+            {
+                InitializePies();
+            }
+        }
+
         private void InitializePies()
         {
             _pies = new List<Pie>
