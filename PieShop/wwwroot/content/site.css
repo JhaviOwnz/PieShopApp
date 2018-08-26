@@ -1,0 +1,11 @@
+﻿body {
+    padding-top: 50x;
+    padding-bottom: 20x;
+    background-image : url('/images/pattern.png');
+    background-repeat : repeat;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
