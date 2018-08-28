@@ -33,8 +33,9 @@ namespace PieShop
                 catch (Exception)
                 {
 
-                    throw;
+                    
                 }
+                host.Run();
             }
         }
 
